@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="10"
+    android:background="@color/grey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/main_header"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+    <Button
+        android:id="@+id/btn_app1"
+        android:layout_width="@dimen/text_view_row_width"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/main_app1"
+        android:maxLines="1"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:background="@color/blue_light"
+        android:layout_margin="@dimen/text_view_row_margin" />
+
+    <Button
+        android:id="@+id/btn_app2"
+        android:layout_width="@dimen/text_view_row_width"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/main_app2_1"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:background="@color/blue_light"
+        android:layout_margin="@dimen/text_view_row_margin" />
+
+    <Button
+        android:id="@+id/btn_app3"
+        android:layout_width="@dimen/text_view_row_width"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/main_app2_2"
+        android:maxLines="1"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:background="@color/blue_light"
+        android:layout_margin="@dimen/text_view_row_margin" />
+
+    <Button
+        android:id="@+id/btn_app4"
+        android:layout_width="@dimen/text_view_row_width"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/main_app3"
+        android:maxLines="1"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:background="@color/blue_light"
+        android:layout_margin="@dimen/text_view_row_margin" />
+
+    <Button
+        android:id="@+id/btn_app5"
+        android:layout_width="@dimen/text_view_row_width"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/main_app4"
+
+        android:maxLines="1"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:background="@color/blue_light"
+        android:layout_margin="@dimen/text_view_row_margin" />
+
+    <Button
+        android:id="@+id/btn_app6"
+        android:layout_width="@dimen/text_view_row_width"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/main_app5"
+        android:maxLines="1"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:background="@color/blue_light"
+        android:layout_margin="@dimen/text_view_row_margin" />
+
+
+</LinearLayout>
